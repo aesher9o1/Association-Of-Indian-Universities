@@ -1,0 +1,14 @@
+.list{
+    background-color: #E3E3E3;
+    
+}
+
+.list_text{
+    color:  rgb(49, 49, 49);
+    padding-top: 0.2em;
+    float: left;
+}
+.divider{
+    column-fill: #272727;
+    width: 100%;
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery.getJSON demo</title>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+</head>
+<body>
+<script>
+    url  ="https://github.com/vidu171/jsontest/blob/master/A.json";
+   
+    $.ajax({
+    url: url,
+    dataType: 'json',
+    success: function (data) {
+        console.log(JSON.stringify(data));        
+    },
+    error: function(msg){
+        console.log(msg.responseText);
+    }
+    
+});
+
+</script>
+
+</body>
+</html>
